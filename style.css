@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  padding: 10px;
+}
+
+form {
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+form label {
+  display: block;
+}
+
+.form-sec h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.form-sec {
+  margin-top: 80px;
+}
+
+#video {
+  margin-top: 25px;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.product-item {
+  width: 60%;
+  height: 200px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.products {
+  display: grid;
+}
