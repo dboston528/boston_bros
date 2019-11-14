@@ -72,9 +72,16 @@ form label {
 }
 
 .box1 {
-  background-color: red;
+  background-color: lightgray;
 }
 
 .box2 {
-  background-color: blue;
+  background-color: darkgray;
+  position: relative;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+}
+
+.main-content {
+  margin: 20px;
 }
