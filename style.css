@@ -64,6 +64,7 @@ form label {
 
 .products {
   display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .grid-content {
@@ -72,16 +73,34 @@ form label {
 }
 
 .box1 {
-  background-color: lightgray;
 }
 
 .box2 {
-  background-color: darkgray;
   position: relative;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: x-large;
+  font-size: 4vw;
 }
 
 .main-content {
   margin: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-heading {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
