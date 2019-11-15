@@ -46,61 +46,46 @@ form label {
   margin-top: 80px;
 }
 
-#video {
-  margin-top: 25px;
+.main-content {
+  width: 100%;
 }
 
-.products h2 {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headers {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
   text-align: center;
 }
 
-.product-item {
-  width: 60%;
-  height: 200px;
-  background-color: gray;
-  margin: auto;
-  margin-top: 10px;
-}
-
-.products {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.grid-content {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
+/* Top page style */
 .box1 {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .box2 {
-  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.box2 img {
+  width: 60%;
+}
+
+.box1 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 4vw;
-}
-
-.main-content {
-  margin: 20px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.product-heading {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
   text-align: center;
-  font-size: 60px;
+}
+/* ************* */
+/* Product style */
+.products img {
+  width: 100%;
 }
 
-.blog {
-  display: grid;
-  grid-template-columns: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* ************* */
+/* blog style */
