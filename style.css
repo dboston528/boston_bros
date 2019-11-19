@@ -110,13 +110,3 @@ section #video {
 }
 
 /* media queries */
-@media (min-width: 500px) {
-  .box1 {
-    background-color: red;
-    width: 50%;
-  }
-
-  .box2 {
-    width: 50%;
-  }
-}
