@@ -83,7 +83,7 @@ form label {
   font-size: 10vw;
   text-align: center;
 }
-/* ************* */
+
 /* Product style */
 .products img {
   width: 60%;
@@ -92,5 +92,31 @@ form label {
   padding-bottom: 100px;
 }
 
-/* ************* */
-/* blog style */
+/* video style */
+section #video {
+  display: block;
+  width: 70%;
+  margin: auto;
+  height: 800px;
+}
+
+/* about style */
+.about {
+  display: block;
+  width: 70%;
+  margin: auto;
+  font-size: 4vw;
+  line-height: 2;
+}
+
+/* media queries */
+@media (min-width: 500px) {
+  .box1 {
+    background-color: red;
+    width: 50%;
+  }
+
+  .box2 {
+    width: 50%;
+  }
+}
