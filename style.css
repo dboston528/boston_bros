@@ -74,6 +74,14 @@ form label {
 }
 
 /* Top page style */
+.hero-image {
+  background-image: url('https://res.cloudinary.com/dyaffqyuj/image/upload/v1576808217/firza-pratama-1BEAIg-79H0-unsplash-reduced_e7l98u.jpg');
+  height: 50%;
+  width: 100%;
+  background-color: brown;
+  background-position: center;
+  background-size: cover;
+}
 .box1 {
   width: 100%;
   margin: 0 auto;
