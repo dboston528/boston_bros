@@ -134,9 +134,9 @@ section #video {
 }
 
 /* media queries */
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .container {
-    max-width: 300px;
+    width: 700px;
     margin-right: auto;
     margin-left: auto;
   }
