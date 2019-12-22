@@ -134,3 +134,10 @@ section #video {
 }
 
 /* media queries */
+@media (min-width: 900px) {
+  .container {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
