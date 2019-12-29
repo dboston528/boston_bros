@@ -63,6 +63,7 @@ form label {
 .form-sec h2 {
   text-align: center;
   margin-bottom: 0px;
+  color: white;
 }
 
 .form-sec {
@@ -96,6 +97,7 @@ form label {
 
 .btext {
   font-family: 'Pacifico', cursive;
+  color: white;
 }
 .box1 {
   width: 100%;
@@ -150,5 +152,24 @@ section #video {
     width: 700px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .navlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+  }
+  nav {
+    display: flex;
   }
 }
