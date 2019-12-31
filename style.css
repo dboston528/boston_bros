@@ -96,6 +96,10 @@ form label {
   background-size: cover;
 }
 
+.box1 img {
+  width: 100%;
+}
+
 .btext {
   font-family: 'Pacifico', cursive;
   color: white;
