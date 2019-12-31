@@ -11,20 +11,6 @@
     </style>
   </head>
 
-  <style>
-    .top-page {
-      height: 400px;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    @media (min-width: 500px) {
-    }
-  </style>
-
   <div id="output"></div>
   <!-- Load Babel -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -40,33 +26,33 @@ For now, the test suite only works in Chrome! Please read the README below in th
 
 -->
   <div class="container">
-    <header id="header">
-      <div class="logo"> <img
-        id="header-img"
-        src="https://res.cloudinary.com/dyaffqyuj/image/upload/v1571689119/LogoMakr_7DygkP_xu0tw0.png"
-        alt="Boston Bros Logo"
-        height="45"
-      /></div>
+   
      
-
-      <nav id="nav-bar">
-        <ul class="navlist">
-          <li>
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#blog">Blog</a>
-          </li>
-          <li><a class="nav-link" href="#products">Products</a></li>
-        </ul>
-      </nav>
+<div class="header-container"><nav id="nav-bar">
+  <header id="header">
+    <div class="logo"> <img
+      id="header-img"
+      src="https://res.cloudinary.com/dyaffqyuj/image/upload/v1571689119/LogoMakr_7DygkP_xu0tw0.png"
+      alt="Boston Bros Logo"
+      height="45"
+    /></div>
+  <ul class="navlist">
+    <li>
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#blog">Blog</a>
+    </li>
+    <li><a class="nav-link" href="#products">Products</a></li>
+  </ul>
+</nav></div>
+      
     </header>
     <!-- Hero Image -->
     
     <div class="main-content">
       <div>
         <div class="box1 hero-image">
-          <h1 class="btext">Boston Bros.</h1>
           <section class="form-sec">
             <h2>Subscribe to our mailing list</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -80,12 +66,6 @@ For now, the test suite only works in Chrome! Please read the README below in th
               <input type="submit" id="submit" />
             </form>
           </section>
-        </div>
-        <div class="box2">
-          <img
-            src="https://res.cloudinary.com/dyaffqyuj/image/upload/v1573747663/boston_bros_vbezrb.png"
-            alt="coffee cup"
-          />
         </div>
       </div>
 
