@@ -12,6 +12,14 @@ header {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+  height: 100px;
+}
+
+#email {
+  border: none;
+  width: 300px;
+  height: 100px;
+  border-bottom: 1px solid black;
 }
 
 .navlist {
@@ -153,8 +161,12 @@ section #video {
 
 /* media queries */
 @media (min-width: 950px) {
-  .header-container {
+  .header {
     max-width: 700px;
+    display: flex;
+  }
+  .navlist {
+    padding: 0;
   }
 }
 
