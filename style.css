@@ -37,6 +37,9 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   list-style-type: none;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 100;
 }
 
 li {
@@ -56,6 +59,7 @@ li a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: auto;
 }
 
 form {
@@ -163,9 +167,6 @@ section #video {
   .header {
     max-width: 700px;
     display: flex;
-  }
-  .navlist {
-    padding: 0;
   }
 }
 
