@@ -17,6 +17,12 @@ header {
 
 .nav-group {
   margin: auto;
+  display: flex;
+  width: 1000px;
+}
+
+#nav-bar {
+  flex: auto;
 }
 
 #email {
