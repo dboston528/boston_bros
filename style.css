@@ -187,3 +187,24 @@ section #video {
     display: flex;
   }
 }
+
+@media (max-width: 1000px) {
+  .nav-group {
+    display: block;
+    width: auto;
+    margin: auto;
+  }
+
+  #nav-bar {
+    flex: none;
+  }
+
+  .logo > img {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+  }
+}
