@@ -213,3 +213,9 @@ section #video {
     padding: inherit;
   }
 }
+
+.prod-head {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.75s;
+}
