@@ -217,5 +217,7 @@ section #video {
 .prod-head {
   text-align: center;
   font-family: sans-serif;
-  font-size: 1.75s;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
