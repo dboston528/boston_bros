@@ -167,6 +167,14 @@ section #video {
     max-width: 700px;
     display: flex;
   }
+
+  .product-group {
+    display: flex;
+  }
+
+  .product-item {
+    width: 50%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -212,6 +220,14 @@ section #video {
   .navlist {
     padding: inherit;
   }
+
+  .product-group {
+    display: flex;
+  }
+
+  .product-item {
+    width: 50%;
+  }
 }
 
 .prod-head {
@@ -220,4 +236,9 @@ section #video {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+}
+
+.product-group {
+  width: 1000px;
+  margin: auto;
 }
