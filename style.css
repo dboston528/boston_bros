@@ -227,6 +227,8 @@ section #video {
 
   .product-item {
     width: 50%;
+    height: 264px;
+    /* width: 286px */
   }
 }
 
@@ -239,6 +241,6 @@ section #video {
 }
 
 .product-group {
-  width: 1000px;
+  width: 950px;
   margin: auto;
 }
