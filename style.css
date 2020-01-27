@@ -7,7 +7,7 @@ header {
   position: fixed;
   top: 0;
   display: flex;
-  background-color: #b33900;
+  background-color: #cb333b;
   align-items: center;
   width: 100%;
   flex-direction: row;
@@ -141,7 +141,7 @@ form label {
   width: 60%;
   display: block;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 /* video style */
@@ -238,9 +238,34 @@ section #video {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  background-color: #cb333b;
+  color: white;
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.prod-head:before {
+  content: '';
+  border-top: 35px 35px solid #003c71;
 }
 
 .product-group {
   width: 950px;
   margin: auto;
+}
+
+.product-button {
+  width: 193px;
+  height: 57px;
+  border-radius: 25px;
+  background-color: #cb333b;
+  text-align: center;
+  margin-left: 55px;
+  color: white;
+  font-size: 15pt;
+  font-weight: 600;
+  font-family: sans-serif;
 }
