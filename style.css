@@ -90,17 +90,10 @@ form label {
   flex-wrap: wrap;
 }
 
-.headers {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 7vw;
-  text-align: center;
-}
-
 /* Top page style */
-.hero-image2 {
-}
 .hero-image {
-  background-image: url('https://res.cloudinary.com/dyaffqyuj/image/upload/v1576808217/firza-pratama-1BEAIg-79H0-unsplash-reduced_e7l98u.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://res.cloudinary.com/dyaffqyuj/image/upload/v1576808217/firza-pratama-1BEAIg-79H0-unsplash-reduced_e7l98u.jpg');
   height: 30%;
   width: 100%;
   background-color: brown;
@@ -108,34 +101,13 @@ form label {
   background-size: cover;
 }
 
-.box1 img {
-  width: 100%;
-}
-
-.btext {
-  font-family: 'Pacifico', cursive;
-  color: white;
-}
-.box1 {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.box2 {
-  width: 100%;
-  height: fit-content;
-}
-
-.box2 img {
-  width: 60%;
-  display: block;
-  margin: auto;
-}
-
-.box1 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 10vw;
+.hero-text {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /* Product style */
