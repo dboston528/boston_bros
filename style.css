@@ -97,9 +97,11 @@ form label {
 }
 
 /* Top page style */
+.hero-image2 {
+}
 .hero-image {
   background-image: url('https://res.cloudinary.com/dyaffqyuj/image/upload/v1576808217/firza-pratama-1BEAIg-79H0-unsplash-reduced_e7l98u.jpg');
-  height: 500px;
+  height: 30%;
   width: 100%;
   background-color: brown;
   background-position: center;
