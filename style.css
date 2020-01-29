@@ -157,8 +157,36 @@ section #video {
   display: block;
   width: 70%;
   margin: auto;
-  font-size: 4vw;
-  line-height: 2;
+}
+
+.about-icon {
+  width: 30%;
+  font-size: 300px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.about-content {
+  width: 70%;
+}
+
+.about-group {
+  display: flex;
+}
+
+.about-p {
+  font-size: 35pt;
+  text-align: left;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-top: auto;
+}
+
+.about-header {
+  color: #cb333b;
+  font-family: sans-serif;
+  margin-bottom: 0;
+  font-size: 60px;
 }
 
 /* media queries */
