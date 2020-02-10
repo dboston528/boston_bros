@@ -4,7 +4,7 @@ body {
 header {
   margin: 0;
   padding: 0;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   display: flex;
   background-color: #cb333b;
@@ -99,6 +99,7 @@ form label {
   background-color: brown;
   background-position: center;
   background-size: cover;
+  margin-bottom: 75px;
 }
 
 .hero-text {
@@ -127,6 +128,8 @@ form label {
   font-weight: 700;
   background-color: #cb333b;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 /* Product style */
@@ -268,10 +271,17 @@ section #video {
   padding: 15px;
 }
 
-.prod-head:before {
+/* .prod-head:before {
   content: '';
   border-top: 35px 35px solid #003c71;
-}
+  border-left: 40px solid green;
+  border-right: 40px solid yellow;
+  border-bottom: 40px solid black;
+  position: absolute;
+  top: -25px;
+  width: 0;
+  height: 0;
+} */
 
 .product-group {
   width: 950px;
